@@ -9,10 +9,10 @@ Run socket-server.py on server side first<br>
 
 For server side:<br>
 in project directory<br>
-`>python socket-server.py`
+`>python socket-server.py`<br>
 And wait for client side to communicate with you...<br>
 
 For client side:<br>
-`>python socket-client.py {server_ip}`
+`>python socket-client.py {server_ip}`<br>
 such as:<br>
 `>python socket-client.py 192.168.1.35`
