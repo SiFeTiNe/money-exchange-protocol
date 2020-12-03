@@ -7,9 +7,14 @@ import socket
 import time
 import datetime
 from currency import Currency
+import sys
+
+port = 8000
+if len(sys.argv) == 2:
+    port = int(sys.argv[1])
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.bind(('0.0.0.0', 8000))
+s.bind(('0.0.0.0', port))
 s.listen(1)
 sock, info = s.accept()
 msg = sock.recv(1024)

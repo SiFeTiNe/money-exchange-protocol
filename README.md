@@ -12,7 +12,24 @@ in project directory<br>
 `>python socket-server.py`<br>
 And wait for client side to communicate with you...<br>
 
+For client side with port:<br>
+in project directory<br>
+`>python socket-server.py {port}`<br>
+such as:<br>
+in project directory<br>
+`>python socket-server.py 8000`<br>
+
+
 For client side:<br>
+in project directory<br>
 `>python socket-client.py {server_ip}`<br>
 such as:<br>
-`>python socket-client.py 192.168.1.35`
+in project directory<br>
+`>python socket-client.py 192.168.1.35`<br>
+
+For client side with port:<br>
+in project directory<br>
+`>python socket-client.py {server_ip} {port}`<br>
+such as:<br>
+in project directory<br>
+`>python socket-client.py 192.168.1.35 8000`
